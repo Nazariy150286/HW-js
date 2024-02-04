@@ -39,14 +39,22 @@
 // console.log(nameWelcome);
 
 //! Task 8
-// const phoneNumber = prompt("Підтвердіть свій номер телефону!");
+// const phoneNumber = prompt("Підтвердіть свій номер телефону!", "+380 ");
 // const whenUserClickOk = "Дякую за підтвердження!";
 // const whenUserClickCancel = "Дію відмінено!";
-// alert(whenUserClickOk);
-// alert(whenUserClickCancel);
+// if (phoneNumber) {
+//   alert(whenUserClickOk);
+// } else {
+//   alert(whenUserClickCancel);
+// }
+
 //! Task 9
 // const phoneNumber = confirm("Ця дія є небезпечною!");
 // const whenUserClickOk = "Дякую за підтвердження!";
 // const whenUserClickCancel = "Дію відмінено!";
-// alert(whenUserClickOk);
-// alert(whenUserClickCancel);
+
+// if (phoneNumber) {
+//   alert(whenUserClickOk);
+// } else {
+//   alert(whenUserClickCancel);
+// }
