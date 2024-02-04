@@ -49,7 +49,7 @@
 // }
 
 //! Task 9
-// const phoneNumber = confirm("Ця дія є небезпечною!");
+// 'const phoneNumber = confirm("Ця дія є небезпечною!");
 // const whenUserClickOk = "Дякую за підтвердження!";
 // const whenUserClickCancel = "Дію відмінено!";
 
@@ -57,4 +57,4 @@
 //   alert(whenUserClickOk);
 // } else {
 //   alert(whenUserClickCancel);
-// }
+// }'
