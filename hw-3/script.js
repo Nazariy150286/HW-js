@@ -30,9 +30,9 @@
 
 //! Task 4
 
-const userName = "Nazariy";
-const payment = "768";
-const result =
-  "Дякуємо " + userName + "! " + "До " + "сплати " + payment + " гривень";
+// const userName = "Nazariy";
+// const payment = "768";
+// const result =
+//   "Дякуємо " + userName + "! " + "До " + "сплати " + payment + " гривень";
 
-alert(result);
+// alert(result);
