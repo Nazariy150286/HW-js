@@ -20,8 +20,8 @@ myCategories.querySelectorAll(".item").forEach((category) => {
   const categoryName = category.querySelector("h2").textContent;
   const categoryItemsCount = category.querySelectorAll("li").length;
 
-  console.log(`Категорія: ${categoryName}`);
-  console.log(`Кількість елементів: ${categoryItemsCount}`);
+  console.log(`Категорія: ${categoryName}
+  Кількість елементів: ${categoryItemsCount}`);
 });
 
 //! Task 2
