@@ -136,36 +136,36 @@
 //! Task 6
 //Створити розмітку з двома полями введення, що приймають числа та список (select) з варіантами вибору операцій: "+", "-", "*", "/". При натисканні на кнопку виводити результат обраної операції над цими числами. Користувач повинен бути попереджений про можливість ділення на нуль.
 
-// function getResult() {
-//   var num1 = parseFloat(document.getElementById("num1").value);
-//   var num2 = parseFloat(document.getElementById("num2").value);
-//   var opSelect = document.getElementById("opSelect").value;
-//   var result;
+function getResult() {
+  var num1 = parseFloat(document.getElementById("num1").value);
+  var num2 = parseFloat(document.getElementById("num2").value);
+  var opSelect = document.getElementById("opSelect").value;
+  var result;
 
-//   if (isNaN(num1) || isNaN(num2)) {
-//     alert("Будь ласка, введіть число");
-//     return;
-//   }
-//   switch (opSelect) {
-//     case "+":
-//       result = num1 + num2;
-//       break;
-//     case "-":
-//       result = num1 - num2;
-//       break;
+  if (isNaN(num1) || isNaN(num2)) {
+    alert("Будь ласка, введіть число");
+    return;
+  }
+  switch (opSelect) {
+    case "+":
+      result = num1 + num2;
+      break;
+    case "-":
+      result = num1 - num2;
+      break;
 
-//     case "*":
-//       result = num1 * num2;
-//       break;
-//     case "/":
-//       if (num2 === 0) {
-//         alert("Ділити на нуль неможна!");
-//       }
-//       result = num1 / num2;
-//       break;
-//     default:
-//       alert("Введіть дійсні значення!");
-//       return;
-//   }
-//   alert(`Result: + ${result} `);
-// }
+    case "*":
+      result = num1 * num2;
+      break;
+    case "/":
+      if (num2 === 0) {
+        alert("Ділити на нуль неможна!");
+      }
+      result = num1 / num2;
+      break;
+    default:
+      alert("Введіть дійсні значення!");
+      return;
+  }
+  alert(`Result: + ${result} `);
+}
