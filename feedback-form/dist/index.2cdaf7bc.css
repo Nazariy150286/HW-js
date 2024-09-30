@@ -1,0 +1,44 @@
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  flex-direction: column;
+  max-width: 400px;
+  display: flex;
+}
+
+label {
+  margin: 10px 0 5px;
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.hidden {
+  display: none;
+}
+
+#successMessage {
+  color: green;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
