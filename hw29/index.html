@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Список задач</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Список задач</h1>
+    <form id="taskForm">
+      <input
+        type="text"
+        id="taskInput"
+        placeholder="Додати нову задачу"
+        required
+      />
+      <button type="submit">Додати</button>
+    </form>
+    <ul id="taskList"></ul>
+
+    <h1>Форма для збереження даних</h1>
+    <form id="dataForm">
+      <input type="text" id="username" placeholder="Логін" required />
+      <input type="password" id="password" placeholder="Пароль" required />
+      <button type="submit">Зберегти</button>
+    </form>
+
+    <h1>Закладки</h1>
+    <form id="bookmarkForm">
+      <input
+        type="text"
+        id="bookmarkInput"
+        placeholder="URL закладки"
+        required
+      />
+      <button type="submit">Додати закладку</button>
+    </form>
+    <ul id="bookmarkList"></ul>
+
+    <h1>Контакти</h1>
+    <form id="contactForm">
+      <input type="text" id="contactName" placeholder="Ім'я" required />
+      <input type="text" id="contactSurname" placeholder="Прізвище" required />
+      <input type="text" id="contactPhone" placeholder="Телефон" required />
+      <input type="email" id="contactEmail" placeholder="Email" required />
+      <button type="submit">Додати контакт</button>
+    </form>
+    <ul id="contactList"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>

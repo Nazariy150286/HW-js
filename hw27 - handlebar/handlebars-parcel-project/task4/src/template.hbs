@@ -1,0 +1,23 @@
+<h1>Список користувачів</h1>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ім'я</th>
+            <th>Електронна пошта</th>
+            <th>Дії</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each users}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.name}}</td>
+            <td>{{this.email}}</td>
+            <td>
+                <button onclick="editUser({{this.id}})">Редагувати</button>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
