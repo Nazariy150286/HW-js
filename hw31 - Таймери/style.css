@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#timerDisplay {
+  font-size: 36px;
+  color: #333;
+}
+
+#message {
+  font-size: 20px;
+  color: red;
+}
+
+#timerDisplay.animate {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    color: red;
+  }
+  50% {
+    color: yellow;
+  }
+}
